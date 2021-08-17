@@ -316,13 +316,13 @@ print_env() {
 	if [ "${os}" == "ubi-minimal" ] || [ "${os}" == "ubi" ]; then
 		cat >> "$1" <<-EOI
 
-LABEL name="AdoptOpenJDK Java" \\
-      vendor="AdoptOpenJDK" \\
+LABEL name="IBM Semeru Open Runtime Edition" \\
+      vendor="International Business Corporation" \\
       version="${jver}" \\
       release="${version}" \\
       run="docker run --rm -ti <image_name:tag> /bin/bash" \\
-      summary="AdoptOpenJDK Docker Image for OpenJDK with ${vm} and ${os}" \\
-      description="For more information on this image please see https://github.com/AdoptOpenJDK/openjdk-docker/blob/master/README.md"
+      summary="IBM Semeru Open Runtime Docker Image for OpenJDK with ${vm} and ${os}" \\
+      description="For more information on this image please see https://github.com/ibmruntimes/openjdk-docker/blob/master/README.md"
 EOI
 	fi
 

@@ -65,7 +65,7 @@ do
 				for btype in ${btypes}
 				do
 					file="${dir}/Dockerfile.${vm}.${build}.${btype}"
-					generate_dockerfile "${file}" "${package}" "${build}" "${btype}" "${osfamily}" "${os}"
+					#generate_dockerfile "${file}" "${package}" "${build}" "${btype}" "${osfamily}" "${os}"
 					# Copy the script to generate slim builds.
 					if [ "${btype}" = "slim" ]; then
 						if [ "${os}" == "windows" ]; then

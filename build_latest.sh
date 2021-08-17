@@ -413,7 +413,7 @@ do
 		for btype in ${btypes}
 		do
 			file="${dir}/Dockerfile.${vm}.${build}.${btype}"
-			generate_dockerfile "${file}" "${package}" "${build}" "${btype}" "${osfamily}" "${os}"
+			#generate_dockerfile "${file}" "${package}" "${build}" "${btype}" "${osfamily}" "${os}"
 			if [ ! -f "${file}" ]; then
 				continue;
 			fi

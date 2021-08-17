@@ -1,0 +1,43 @@
+
+[
+    {
+        "binaries": [
+            {
+                "architecture": "x64",
+                "download_count": 1185,
+                "heap_size": "normal",
+                "image_type": "jdk",
+                "jvm_impl": "openj9",
+                "os": "linux",
+                "package": {
+                    "checksum": "4c2d776f69e3ff7d01cd57c0938b7a7f058264425faf18e3708b905e93f915c4",
+                    "checksum_link": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_linux_11.0.12_7_openj9-0.27.0.tar.gz.sha256.txt",
+                    "download_count": 1185,
+                    "link": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_linux_11.0.12_7_openj9-0.27.0.tar.gz",
+                    "metadata_link": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.12%2B7_openj9-0.27.0/ibm-semeru-open-jdk_x64_linux_11.0.12_7_openj9-0.27.0.tar.gz.json",
+                    "name": "ibm-semeru-open-jdk_x64_linux_11.0.12_7_openj9-0.27.0.tar.gz",
+                    "size": 202156239
+                },
+                "project": "jdk",
+                "scm_ref": "v0.27.0-release",
+                "updated_at": "2021-08-03T16:07:36Z"
+            }
+        ],
+        "download_count": 4216,
+        "id": "MDc6UmVsZWFzZTQ3MjM4NDA4.Xk3KfzrxRzXZIw==",
+        "release_link": "https://github.com/AdoptOpenJDK/semeru11-binaries/releases/tag/jdk-11.0.12%2B7_openj9-0.27.0",
+        "release_name": "jdk-11.0.12+7_openj9-0.27.0",
+        "release_type": "ga",
+        "timestamp": "2021-08-03T16:16:45Z",
+        "updated_at": "2021-08-03T16:16:45Z",
+        "vendor": "ibm",
+        "version_data": {
+            "build": 7,
+            "major": 11,
+            "minor": 0,
+            "openjdk_version": "11.0.12+7",
+            "security": 12,
+            "semver": "11.0.12+7"
+        }
+    }
+]

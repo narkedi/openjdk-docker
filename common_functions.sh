@@ -30,7 +30,8 @@ test_buckets_file="config/test_buckets.list"
 
 # All supported JVMs
 # shellcheck disable=SC2034 # used externally
-all_jvms="hotspot openj9"
+#all_jvms="hotspot openj9"
+all_jvms="openj9"
 
 # Supported arches for each of the os_families
 os_families="linux alpine-linux windows"
@@ -663,7 +664,7 @@ function get_sums_for_build() {
 		local arches="${fam}_arches"
 		for arch in ${!arches}
 		do
-			get_sums_for_build_arch "${ver}" "${vm}" "${pkg}" "${build}" "${arch}" "${os_fam}"
+			#get_sums_for_build_arch "${ver}" "${vm}" "${pkg}" "${build}" "${arch}" "${os_fam}"
 		done
 	done
 	printf ")\n" >> "${ofile_sums}"
